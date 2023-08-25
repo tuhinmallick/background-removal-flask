@@ -41,7 +41,7 @@ jobs:
       - name: Build, tag, and push image to Amazon ECR
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: voids_model_full_data_docker_image
+          ECR_REPOSITORY: background-removal-flask
           IMAGE_TAG: ${{ github.sha }}_dev
         run: |
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:latest -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
@@ -52,5 +52,5 @@ jobs:
       - name: Remove old docker image
         if: steps.build.outcome == 'success' && env.IMAGE_EXISTS == 'true'
         env:
-          ECR_REPOSITORY: voids_model_full_data_docker_image
+          ECR_REPOSITORY: background-removal-flask
         run: aws ecr batch-delete-image --repository-name $ECR_REPOSITORY --image-ids imageDigest=$IMAGE_DIGEST
