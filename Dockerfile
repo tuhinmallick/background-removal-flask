@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Set the CMD to your handler (this will vary depending on your Flask setup)
-CMD ["run.lambda_handler"]
+CMD ["background-removal-flask.run.lambda_handler"]
