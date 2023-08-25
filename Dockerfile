@@ -1,5 +1,5 @@
 # Use an official Python runtime as the parent image
-FROM public.ecr.aws/lambda/python:3.8
+FROM public.ecr.aws/lambda/python:3.11
 
 # Set the working directory in the container to /app
 WORKDIR /app
