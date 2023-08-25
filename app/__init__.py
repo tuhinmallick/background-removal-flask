@@ -3,7 +3,10 @@ from serverless_wsgi import handle_request
 from app.api.endpoints.background_removal import background_removal
 from app.api.endpoints.human_segmentation import human_segment
 from app.api.endpoints.segment_and_remove_background import segment_and_remove_background_bp as segment_and_remove_bg
+import logging
 
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
 
 def create_app():
     """
@@ -92,4 +95,5 @@ def lambda_handler(event, context):
     Returns:
         The result of calling the handle_request function with the app, event, and context parameters.
     """  
+    logger.debug("Starting lambda...")
     return handle_request(app, event, context)
