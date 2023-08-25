@@ -84,16 +84,4 @@ def register_error_handlers(app):
 
 app = create_app()
 
-def lambda_handler(event, context):
-    """
-    Handles the lambda event and context and returns the result.
 
-    Args:
-        event (dict): The event data passed to the lambda function.
-        context (dict): The context object passed to the lambda function.
-
-    Returns:
-        The result of calling the handle_request function with the app, event, and context parameters.
-    """  
-    logger.debug("Starting lambda...")
-    return handle_request(app, event, context)
