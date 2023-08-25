@@ -1,5 +1,4 @@
 from flask import Flask, jsonify
-from serverless_wsgi import handle_request
 from app.api.endpoints.background_removal import background_removal
 from app.api.endpoints.human_segmentation import human_segment
 from app.api.endpoints.segment_and_remove_background import segment_and_remove_background_bp as segment_and_remove_bg
