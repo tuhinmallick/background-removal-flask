@@ -1,20 +1,16 @@
-# Use an official Python runtime as the parent image
-FROM public.ecr.aws/lambda/python:3.11
+# Use a general Python image
+FROM python:3.9-slim
 
-# Set the working directory in the container to /app
+# Set the working directory
 WORKDIR /app
 
 # Copy just the requirements.txt first to leverage Docker cache
 COPY requirements.txt .
-
-# Upgrade pip first
-RUN pip install --upgrade pip
-
-# Install any needed packages specified in requirements.txt
+RUN pip install --upgrade pip 
 RUN pip install -r requirements.txt
 
-# Copy the current directory (project_root/) contents into the container at /app
+# Copy the rest of your application
 COPY . .
 
-# Set the CMD to your handler (this will vary depending on your Flask setup)
-CMD ["app.run.lambda_handler"]
+# Command to run gunicorn
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8000", "run:app"]
