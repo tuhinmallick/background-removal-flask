@@ -1,11 +1,13 @@
 # Use an official Python runtime as the parent image
 FROM public.ecr.aws/lambda/python:3.8
 
+RUN apk update && apk add shadow passwd
+
 # Set the working directory in the container to /app
 WORKDIR /app
 
 # Create a non-root user and switch to it
-RUN adduser --disabled-password --gecos '' appuser
+RUN addgroup -S appuser && adduser -S appuser -G appuser
 USER appuser
 
 # Copy just the requirements.txt first to leverage Docker cache
