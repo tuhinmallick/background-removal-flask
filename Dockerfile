@@ -3,12 +3,12 @@ FROM public.ecr.aws/lambda/python:3.8
 
 RUN python -m pip install shadow passwd
 
+# Create a non-root user and switch to it
+RUN addgroup --system appuser && adduser --system --gid appuser appuser
+USER appuser
+
 # Set the working directory in the container to /app
 WORKDIR /app
-
-# Create a non-root user and switch to it
-RUN addgroup -S appuser && adduser -S appuser -G appuser
-USER appuser
 
 # Copy just the requirements.txt first to leverage Docker cache
 COPY --chown=appuser requirements.txt .
