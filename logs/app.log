@@ -1,0 +1,144 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 16:23:11] "POST /remove-background HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\cv2\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\io.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\_globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\__config__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\_distributor_init.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_add_newdocs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_dtype.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_dtype_ctypes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_machar.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_methods.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\_string_helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\cversions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\generate_numpy_api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\setup.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\setup_common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\core\\umath_tests.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\compat\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\compat\\_inspect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\lib\\_datasource.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\lib\\_iotools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\lib\\recfunctions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\lib\\setup.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\lib\\user_array.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\matrixlib\\setup.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\mkl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\cv2\\typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\cv2\\mat_wrapper\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\distutils\\log.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\distutils\\misc_util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\numpy\\distutils\\system_info.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\human_segmentation.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\modules\\upsampling.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\common_types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\modules\\conv.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\modules\\batchnorm.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\modules\\activation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\nn\\modules\\pooling.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\config.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\run.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\config.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\flask\\blueprints.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\run.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\run.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\human_segmentation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\human_segmentation.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\endpoints\\background_removal.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\anaconda3\\Lib\\site-packages\\torch\\overrides.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Tuhin Mallick\\Downloads\\assignemnt\\app\\api\\services\\image_processing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 404-007-004
