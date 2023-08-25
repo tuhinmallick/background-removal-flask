@@ -7,27 +7,6 @@ import logging
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-def create_app():
-    """
-    Create and configure the Flask application.
-
-    This function sets up the application, registers blueprints, 
-    and sets up error handlers for a consistent API response.
-
-    Returns:
-        app: A Flask application instance.
-    """
-
-    app = Flask(__name__)
-
-    # Register blueprints with versioning
-    register_blueprints(app)
-
-    # Set up error handlers for consistent API response
-    register_error_handlers(app)
-
-    return app
-
 def register_blueprints(app):
     """
     Register the application blueprints.
@@ -81,6 +60,5 @@ def register_error_handlers(app):
         """
         return jsonify(error=str(e)), 500
 
-app = create_app()
 
 
