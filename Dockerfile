@@ -7,23 +7,12 @@ WORKDIR /app
 # Install required system dependencies
 RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
-    libglib2.0-0 \
-    curl unzip
-
-# Install AWS CLI
-RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
-    unzip awscliv2.zip && \
-    ./aws/install
-
+    libglib2.0-0
 
 # Copy just the requirements.txt first to leverage Docker cache
 COPY requirements.txt .
 RUN pip install --upgrade pip 
 RUN pip install -r requirements.txt
-
-# Fetch the models from S3
-RUN aws s3 cp s3://background-removal-flask/saved_models/u2net_human_seg.pth ./saved_models/
-RUN aws s3 cp s3://background-removal-flask/saved_models/u2net_portrait.pth ./saved_models/
 
 # Copy the rest of your application
 COPY . .
