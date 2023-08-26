@@ -2,5 +2,5 @@ Flask==2.3.3
 numpy==1.25.2
 opencv_python==4.8.0.76
 serverless_wsgi==3.0.2
-torch==1.12.1
+torch==2.0.1
 
