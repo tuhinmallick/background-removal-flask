@@ -17,5 +17,5 @@ RUN pip install -r requirements.txt
 # Copy the rest of your application
 COPY . .
 
-# Command to run gunicorn
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8000", "run:app"]
+# Command to run Flask's development server
+CMD ["python", "run.py"]
