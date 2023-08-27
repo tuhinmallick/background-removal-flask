@@ -24,7 +24,7 @@ ENV AWS_REGION=$AWS_REGION
 # Install AWS CLI
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
     unzip awscliv2.zip && \
-    sudo ./aws/install
+    ./aws/install
 
 # Use AWS CLI to copy the models from S3
 RUN aws s3 cp s3://background-removal-flask/saved_models/u2net_human_seg.pth saved_models/u2net_human_seg.pth && \
