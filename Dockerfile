@@ -14,6 +14,11 @@ COPY requirements.txt .
 RUN pip install --upgrade pip 
 RUN pip install -r requirements.txt
 
+# Explicitly copy the models and the Haar Cascade XML
+COPY saved_models/u2net_human_seg.pth saved_models/u2net_human_seg.pth
+COPY saved_models/u2net_portrait.pth saved_models/u2net_portrait.pth
+COPY saved_models/haarcascade_frontalface_default.xml saved_models/haarcascade_frontalface_default.xml
+
 # Copy the rest of your application
 COPY . .
 
