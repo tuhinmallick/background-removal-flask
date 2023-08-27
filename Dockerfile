@@ -54,5 +54,5 @@ COPY saved_models/haarcascade_frontalface_default.xml saved_models/haarcascade_f
 # Copy the rest of your application
 COPY . .
 
-# Command to run Flask's development server
-CMD ["python", "run.py"]
+# Command to run the Flask app with Gunicorn
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5002", "app:create_app()"]
