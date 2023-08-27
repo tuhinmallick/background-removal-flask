@@ -2,3 +2,4 @@ torch
 Flask
 numpy
 opencv_python
+gunicorn
